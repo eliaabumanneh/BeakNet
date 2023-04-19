@@ -16,6 +16,7 @@ Bird image classification tool built using a trained convoluted neural network. 
 ![image](https://user-images.githubusercontent.com/59853149/233220928-8a622a17-9e6e-433c-a698-9d59dcd01322.png)
 
 3. The model was trained and used to make predictions. The training was monitored to avoid over-fitting or under-fitting. 
+![epocs](https://user-images.githubusercontent.com/59853149/233222214-a97f6d4f-bdf9-4393-bb46-696828e26011.png)
 
 4. The model's performance was evaluated based on the precision, recall, and f1-score
 ![image](https://user-images.githubusercontent.com/59853149/233221404-641fec2a-b76a-4a00-8710-8c000c4c648e.png)
