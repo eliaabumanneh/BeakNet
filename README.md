@@ -4,7 +4,7 @@
 
 # TLDR;
 
-Bird image classification tool built using a trained convoluted neural network. You can view it [here](https://github.com/eliaabumanneh/BeakNet/blob/main/BeakNet_main.ipynb)
+Bird image classification tool built using a trained convoluted neural network. It can predict the species of a bird using a provided image with 84% accuracy. You can view it [here](https://github.com/eliaabumanneh/BeakNet/blob/main/BeakNet_main.ipynb)
 
 # Project Summary
 
