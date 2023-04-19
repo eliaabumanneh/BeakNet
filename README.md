@@ -1,16 +1,18 @@
-# BeakNet
+# [BeakNet](https://github.com/eliaabumanneh/BeakNet/blob/main/BeakNet_main.ipynb)
 
 Insert Image
 
 # TLDR;
 
-Bird image classification tool built using a trained convoluted neural network.
+Bird image classification tool built using a trained convoluted neural network. You can view it [here](https://github.com/eliaabumanneh/BeakNet/blob/main/BeakNet_main.ipynb)
 
 # Project Walkthrough
 A tool that allows users to get a prediction on the expected delay of their flight and the likelihood of cancellation using historical data. 
 
 
 # Methodology
+
+The information below was used to guide the model creation process. Following a carefully design first trial, each subsequent model was adjusted based on its observed behaviour using the guidelines below. 
 
 ## Layers
 * The number of input neurons should be the number of input features (as dummy variables)
@@ -97,11 +99,9 @@ A tool that allows users to get a prediction on the expected delay of their flig
 
 # Languages Used
 * Python
-* HTML
 
 # Software Used
 * Visual Code Studio
-* Google Chrome
 * GitHub Desktop
 * GitHub
 * cuDNN
@@ -113,8 +113,7 @@ A tool that allows users to get a prediction on the expected delay of their flig
 * Tensorflow 
 * Keras
 * Matplotlib
-* Xgboost
-* Statsmodels
+
 
 # Legal
 
