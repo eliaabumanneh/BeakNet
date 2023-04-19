@@ -46,15 +46,15 @@ A tool that allows users to get a prediction on the expected delay of their flig
 * Generally faster than GD with Momentum
 
 ## The 4 below are the "Best ones" (fast, no need for tuning)
-    AdaGrad
-        Decays the learning rates (slows the learning as epochs increase)
-        The problem is, it might slow down too early
-    RMSProp
-        Similar to AdaGrad but it decays the rate of decay
-    Adam
-        Combination of (Momentum + RMSProp) - 4 parameters no tuning needed
-    Nadam  
-        Nadam = Nesterov + Adam
+* AdaGrad
+    Decays the learning rates (slows the learning as epochs increase)
+    The problem is, it might slow down too early
+* RMSProp
+    Similar to AdaGrad but it decays the rate of decay
+* Adam
+    Combination of (Momentum + RMSProp) - 4 parameters no tuning needed
+* Nadam  
+    Nadam = Nesterov + Adam
 
     
 ## Iterations:
