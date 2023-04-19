@@ -13,7 +13,7 @@ Bird image classification tool built using a trained convoluted neural network. 
 
 # Methodology
 
-A set of [guideliens](https://github.com/eliaabumanneh/BeakNet/blob/main/guidelines.txt) were used the model creation process. Following a carefully design first trial, each subsequent model was adjusted based on its observed behaviour using the guidelines.
+A set of [guidelines](https://github.com/eliaabumanneh/BeakNet/blob/main/guidelines.txt) were used the model creation process. Following a carefully design first trial, each subsequent model was adjusted based on its observed behaviour using the guidelines.
 
 
 
