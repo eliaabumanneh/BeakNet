@@ -7,7 +7,8 @@ Insert Image
 Bird image classification tool built using a trained convoluted neural network. You can view it [here](https://github.com/eliaabumanneh/BeakNet/blob/main/BeakNet_main.ipynb)
 
 # Project Walkthrough
-A tool that allows users to get a prediction on the expected delay of their flight and the likelihood of cancellation using historical data. 
+
+
 
 
 # Methodology
@@ -88,13 +89,12 @@ The information below was used to guide the model creation process. Following a 
 * 2 H Layer: Capable of representing arbitrary data relationships
 
 # Project Limitations
-* Data Limitation: The data used in this tool is limited to the contingous United States and limited to the airport data provided by the Buereau of Transportation Statistics. 
+* Data Limitation: Due to limited computing power, the model was trained on only 15 species of birds. By leverage the power of parallel computing and cloud computing, the same model can be scaled to hundreds of bird species while remaining performant. 
 
-* Modelling Limitation: Due to the large size of the data, the models have been subdivided by origin airport to reduces modelling complexity by 2 orders of Magnitude. 
+* Modelling Limitation: The keras model created in this project has an overall classification accuracy of 84%. With further optimisation, the model accuracy can theoretically go up to as high as 97%. 
 
-# Data Sources
-* [Buereau of Transportation Statistics - Airline On-Time Performance Data](https://www.transtats.bts.gov/Tables.asp?QO_VQ=EFD&QO_anzr=Nv4yv0r%FDb0-gvzr%FDcr4s14zn0pr%FDQn6n&QO_fu146_anzr=b0-gvzr) 
-* [Kaggle - 2019 Airline Delays w/Weather and Airport Detail by Jen Wadkins -  Raw Data](https://www.kaggle.com/datasets/threnjen/2019-airline-delays-and-cancellations)
+# Data Source(s)
+* [Kaggle: BIRDS 515 SPECIES- IMAGE CLASSIFICATION](https://www.kaggle.com/datasets/gpiosenka/100-bird-species)
 
 
 # Languages Used
@@ -110,9 +110,11 @@ The information below was used to guide the model creation process. Following a 
 * Pandas
 * Numpy
 * Scikit-learn
+* Scikit-image
 * Tensorflow 
 * Keras
 * Matplotlib
+* Pillow
 
 
 # Legal
