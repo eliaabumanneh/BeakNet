@@ -1,10 +1,10 @@
-# Flight Delay Predict
+# BeakNet
 
 Insert Image
 
 # TLDR;
 
-User inputs their origin airport, destination and airline. The tool predicts the expected flight delay and likelihood of cancellation.
+Bird image classification tool built using a trained convoluted neural network.
 
 # Project Walkthrough
 A tool that allows users to get a prediction on the expected delay of their flight and the likelihood of cancellation using historical data. 
